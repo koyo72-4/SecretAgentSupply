@@ -178,12 +178,14 @@ footer {
     height: 15rem;
   }
   .headline {
-    padding: 1rem 2rem;
+    padding: 1rem 0 1rem 2rem;
     top: 10rem;
-    width: 100%;
+    width: auto;
+    box-sizing: border-box;
   }
   .headline h2 {
     font-size: 0.77rem;
+    box-sizing: border-box;
   }
   .headline p {
     font-size: 1rem;
